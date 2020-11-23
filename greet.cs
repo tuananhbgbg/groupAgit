@@ -1,6 +1,12 @@
-public static void Greet(int parameter)
+namespace Greet
 {
-    System.Console.WriteLine("Greetings!");
-    var parameter = 0;
-    System.Console.WriteLine(parameter);
-}
+public class Greet
+{
+    public static void GreetCount(int parameter,int birthdate)
+    {
+        System.Console.WriteLine("Anh");
+        var parameter = 0;
+        System.Console.WriteLine(parameter);
+        System.Console.WriteLine(birthdate);
+    }
+}}

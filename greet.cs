@@ -9,4 +9,7 @@ public class Greet
         System.Console.WriteLine(parameter);
         System.Console.WriteLine(birthdate);
     }
+    public static void Cheer(string param){
+        System.Console.WriteLine($"Cheer for the {param}");
+    }
 }}

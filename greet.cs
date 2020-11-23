@@ -1,6 +1,6 @@
 public static void Greet(int parameter)
 {
-    System.Console.WriteLine("Anh");
+    System.Console.WriteLine("Greetings!");
     var parameter = 0;
     System.Console.WriteLine(parameter);
 }

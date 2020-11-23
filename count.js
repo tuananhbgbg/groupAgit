@@ -1,4 +1,5 @@
-public void printAge(int age) {
+public void printAge(int age, String secondParam) {
     MediaKeySystemAccess.out.printl(age);
-    console.log('Counting the countless ' + extraParam);
+    System.out.println("Second param: "+secondParam);
+    console.log('Counting the countless ' + secondParam);
 }

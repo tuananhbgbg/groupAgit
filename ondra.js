@@ -1,3 +1,3 @@
-function cheer(extraParam) {
-    console.log('Microtis TODO' + extraParam);
+function cheer(extraParam, timestamp) {
+    console.log(timestamp + ': Microtis TODO' + extraParam);
 }

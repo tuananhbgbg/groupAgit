@@ -1,4 +1,5 @@
-function cheer(extraParam) {
-    console.log('Microtis TODO' + extraParam);
-console.log('Base language: JS');
+function cheer(extraParam, timestamp) {
+    console.log(timestamp + ': Microtis TODO' + extraParam);    
+    console.log('Base language: JS');
+
 }

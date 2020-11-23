@@ -1,4 +1,5 @@
 public void printAge(int age, String secondParam) {
-    System.out.println("Age: "+age);
+    MediaKeySystemAccess.out.printl(age);
     System.out.println("Second param: "+secondParam);
+    console.log('Counting the countless ' + secondParam);
 }

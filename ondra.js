@@ -1,3 +1,3 @@
-function cheer() {
-    console.log('Microtis TODO');
+function cheer(extraParam) {
+    console.log('Microtis TODO' + extraParam);
 }
